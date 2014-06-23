@@ -1,1 +1,17 @@
-<h1>hey</h1>
+<h1>Lista dos nomes para o lower Third</h1>
+ 
+<table>
+  <tr>
+    <th>Nome Completo</th>
+    <th>Profissão</th>
+    <th>Email</th>
+  </tr>
+ 
+  <% @lower_thirds.each do |lt| %>
+    <tr>
+      <td><%= lt.nome_completo %></td>
+      <td><%= lt.profissao %></td>
+      <td><%= lt.email %></td>
+    </tr>
+  <% end %>
+</table>

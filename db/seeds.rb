@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+LowerThirdsModel.create!(
+	:nome_completo =>  "Rafael Perez",
+	:profissao => "Compositor",
+	:email => "rperez333@gmail.com"
+	)
