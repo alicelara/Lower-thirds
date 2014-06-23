@@ -1,0 +1,2 @@
+module LowerThirdsHelper
+end

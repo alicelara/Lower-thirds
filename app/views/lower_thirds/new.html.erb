@@ -1,4 +1,4 @@
-<%= form_for :lower_thirds do |f| %>
+<%= form_for :lower_thirds , url: lower_thirds_path do |f| %>
   <p>
     <%= f.label :nome_completo %><br>
     <%= f.text_field :nome_completo %>
@@ -6,7 +6,7 @@
  
   <p>
     <%= f.label :profissão %><br>
-    <%= f.text_field :profissão %>
+    <%= f.text_field :profissao %>
   </p>
 
   <p>

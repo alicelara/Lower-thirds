@@ -6,4 +6,7 @@ class LowerThirdsController < ApplicationController
   	
   end
   
+  def create
+    render plain: params[:lower_thirds].inspect
+	end
 end
