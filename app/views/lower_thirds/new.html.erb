@@ -1,0 +1,22 @@
+<%= form_for :lower_thirds do |f| %>
+  <p>
+    <%= f.label :nome_completo %><br>
+    <%= f.text_field :nome_completo %>
+  </p>
+ 
+  <p>
+    <%= f.label :profissão %><br>
+    <%= f.text_field :profissão %>
+  </p>
+
+  <p>
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </p>
+  
+
+ 
+  <p>
+    <%= f.submit "Enviar"%>
+  </p>
+<% end %>
