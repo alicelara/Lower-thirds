@@ -19,6 +19,6 @@
 
 # Learn more: http://github.com/javan/whenever
 
-# every 1.minute do
-# 	command "touch 'Documents/rails/form_vinhetas/lower_thirds/config/#{LowerThirdsModels.nome_completo}.txt'"
-# end
+every 1.day do
+	rake "render:lower_thirds"
+end
