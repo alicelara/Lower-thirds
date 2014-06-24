@@ -9,7 +9,7 @@
  
   <% @lower_thirds.each do |lt| %>
     <tr>
-      <td><%= lt.nome_completo %></td>
+      <td id="nome_<%= lt.id %>"><%= lt.nome_completo %></td>
       <td><%= lt.profissao %></td>
       <td><%= lt.email %></td>
     </tr>
